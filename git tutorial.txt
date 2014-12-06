@@ -15,7 +15,7 @@ How to initilize a new repository
 1. go to folder level
 2. paste file or project in folder
 3. git add . or git add -A
-4. git commit -m "any coment"
+4. git commit -m "any comment"
 5. git pull
 6. git push (if needed git push -u origin master)
 *How to import a project in Eclipse from folder or repository
