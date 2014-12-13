@@ -25,7 +25,7 @@ ________________________________________________________________________________
 2. click import
 3. click generel (if maven project then click maven instead of general)
 4. click existing project into workspace (if maven project click existing maven project)
-5. click browse, then go to folder level then select project
+5. click browse, then go to folder level then select project note :if any problem in any repo just delete repo  then clone  again :command :git  clone git @github.com:bitechusa/SatRepo.git
 6. click finish or ok
 _______________________________________________________________________________________
 *How to export a project from Eclipse to folder or repository
@@ -39,7 +39,15 @@ ________________________________________________________________________________
 8. git commit -m "any coment"
 9. git pull
 10. git push (if needed git push -u origin master)
+<<<<<<< HEAD
+ 
+Note: if any problem in repo just delete repo then clone again:
+go to desktop level then 
+command: git clone git@github.com:bittechusa/SatRepo.git
+
+=======
 ________________________________________________________________________________________
+>>>>>>> d34b1b715a3d6670d14f06f2c932cf217bb5d93c
    
 Note:if any problem in repo just delete repo then clone again:
 go to desktop level then
