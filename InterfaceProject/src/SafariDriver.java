@@ -7,7 +7,8 @@ WebDriver dr;
 	
 
 	@Override
-	public void get(String url) {
+	public void get(String url) 
+	{
 		
 		dr.get(url);
 	}
@@ -15,14 +16,16 @@ WebDriver dr;
 
 
 	@Override
-	public void quit() {
+	public void quit() 
+	{
 		dr.quit();
 	}
 
 
 
 	@Override
-	public void findElement(String by) {
+	public void findElement(String by)
+	{
 		// TODO Auto-generated method stub
 		
 	}

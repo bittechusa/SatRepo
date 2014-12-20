@@ -1,6 +1,7 @@
 import org.junit.Test;
 
 
+
 public class SmokeTest 
 {
 	WebDriver dr=new FirefoxDriver();
