@@ -24,7 +24,6 @@ dr.findElement(By.xpath("//span[@class='_5k_2 _5dba']/input[@id='u_0_e']")).clic
 
 
 
-
 // this is how we got new select object
 
 
