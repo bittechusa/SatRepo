@@ -7,7 +7,7 @@ public class M1
 	//String color = "yellow";
 	
 	//Array behave as an object
-	int b [] = {5, 6, 7};
+	int b [] = {5, 6, 7,};
 	
 	@Test
 	public void m1()

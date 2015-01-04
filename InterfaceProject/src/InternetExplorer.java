@@ -4,6 +4,8 @@
 public class InternetExplorer implements WebDriver
 {
 WebDriver dr;
+
+	FirefoxDriver dri=new FirefoxDriver();
 	
 
 	@Override
