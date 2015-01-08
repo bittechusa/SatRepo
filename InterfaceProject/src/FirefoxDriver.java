@@ -3,11 +3,13 @@
 
 public class FirefoxDriver implements WebDriver
 {
+	WebDriver driver;
   
 	
 
 	@Override
-	public void get(String url) {
+	public void get(String url)
+	{
 		
 		System.out.println(url);
 	}
