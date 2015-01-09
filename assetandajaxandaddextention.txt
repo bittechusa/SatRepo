@@ -1,0 +1,28 @@
+@Test
+			public void assertMethod()
+			{
+				Assert.assertEquals("jfkdgj", "jfkdgj", "dsfg");
+				System.out.println("hi");
+				Assert.assertTrue(dr.getTitle().contains("facebook"));
+				System.out.println("hdjgfj");
+				Assert.assertFalse(dr.getPageSource().contains("login"));
+				System.out.println("xgff");
+			}
+			@Test
+			public void ajaxCall() throws Throwable
+			{
+
+				   final String firebugPath = "C:\\firebug.xpi";
+				   final String firepathPath = "C:\\firepath.xpi";
+				   FirefoxProfile profile = new FirefoxProfile();       
+				   profile.addExtension(new File(firebugPath));
+				   profile.addExtension(new File(firepathPath));
+				   
+					FirefoxDriver driver = new FirefoxDriver(profile);
+					driver.get("http://www.bluefly.com");
+				WebDriverWait wait=new WebDriverWait(dr, 10);
+				//wait.until(ExpectedConditions.));
+				FluentWait wait1=new FluentWait(dr);
+				//wait1.until(dr.findElement(By.xpath("ghhfg")).click();)
+				
+			}
