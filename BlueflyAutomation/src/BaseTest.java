@@ -5,17 +5,17 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BaseTest 
 {
-	FirefoxDriver dr=new FirefoxDriver();
+	FirefoxDriver driver=new FirefoxDriver();
 	@Before
 	public void start()
 	{
-		dr.manage().window().maximize();
-		dr.get("http://www.bluefly.com");
+		driver.manage().window().maximize();
+		driver.get("http://www.bluefly.com");
 	}
 	@After
 	public void end()
 	{
-		dr.quit();
+		driver.quit();
 	}
 
 }
