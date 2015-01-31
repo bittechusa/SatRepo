@@ -15,15 +15,15 @@ public class smoke extends BaseTest
 	{
 		dr.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
-		WebElement ele=dr.findElement(By.xpath(".//*[@id='main-nav-woman']/a"));
+		WebElement ele=dr.findElement(By.xpath(".//*[@id='nav']/li[1]/a/span"));
 		Actions x=new Actions(dr);
 		x.moveToElement(ele).perform();
 		Thread.sleep(2000);
-		List<WebElement> subele=dr.findElements(By.xpath(".//*[@id='main-nav-woman']/div/div"));
+		List<WebElement> subele=dr.findElements(By.xpath(".//*[@id='nav']/li[1]/ul/li"));
 		for(int i=1; i<=subele.size(); i++) 
 		{
-			if (i==3)
-			{
+			//if (i==3)
+			//{
 				List<WebElement> subele4=dr.findElements(By.xpath(".//*[@id='main-nav-woman']/div/div[3]/ul"));
 				for(int g=1; g<=subele4.size();g++){
 					List<WebElement> subele2=dr.findElements(By.xpath(".//*[@id='main-nav-woman']/div/div[3]/ul["+g+"]/li"));
@@ -37,7 +37,7 @@ public class smoke extends BaseTest
 							}
 				
 			}		
-		}
+		//}
 			List<WebElement> subele1=dr.findElements(By.xpath(".//*[@id='main-nav-woman']/div/div["+i+"]/ul/li"));
 			for(int j=1; j<=subele1.size(); j++){
 				
