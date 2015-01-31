@@ -7,7 +7,7 @@ public class B
 	static String name="shahid";//global variable
 	 void m1()
 	{
-		;
+		
 		v=10;
 		name2="hgff";
 		System.out.println(name);

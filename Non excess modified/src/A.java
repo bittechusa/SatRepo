@@ -2,8 +2,11 @@
 public class A 
 {
 	int a=7;// global variable 
-	static int b=11;// class variable 
-	final int c=20;
+	static int b=11;// class variable.static value works with change valu,static
+	                       // without object criat you can call direct class name;
+	final int c=20;//global variable
+	//abstract int c=9 ; variable cannot be abstract;
+	//abstract mathod should be abstract class.
 	static void m()
 	{
 	System.out.println("hi");	
