@@ -6,7 +6,7 @@ public class MavenSmokeTest extends MavenBaseTest {
 	@Test
 	public void run() throws Throwable
 	{
-CommonMethodTest ct=new CommonMethodTest(dr);
+CommonMethodTest ct=new CommonMethodTest(moga);
 ct.verifyTitle("Bluefly");
 ct.verifyText("bluefly");
 Thread.sleep(3000);
