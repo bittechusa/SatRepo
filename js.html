@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title> This is JavaScript </title>
+		<script>
+			function verify()
+			{	
+				var a = document.getElementById("e").value;
+				var b = document.getElementById("p").value;
+				
+				if(a=="")
+				{
+					alert("forgot your email");
+				}
+				else if(b=="")
+				{
+					confirm("password not entered");
+				}
+				else if(a==""&&b=="")
+				{
+					prompt("password and email not entered");
+				}
+				else if(a==""||b=="")
+				{
+					confirm("password or email");
+				}
+				else if(b!=asad)
+				{
+					comfirm("password is not correct");
+				}
+				else(b==asad)
+				{
+					prompt("password is correct");
+				}	
+			}		
+		</script>
+		
+	</head>
+	<body>
+		Email <input type=text id="e"> <br> <br>
+		Password <input type=text id="p"> <br> <br>
+		<input type=button value="submit" onclick="verify()">	
+		<!--  verify can be any name -->
+<!-- //<input type=button value=login  onclick="alert("hi")"> for inline format !--> 
+		
+	</body>
+</html>
