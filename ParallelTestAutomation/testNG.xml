@@ -1,13 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Parallel test runs" parallel="tests" thread-count="2">
  
-<test name="T_01">
+<test name="testFacebook">
     <classes>
         <class name="com.bit.parallel.test.Test01" ></class>
     </classes>
 </test>
  
-<test name="T_02">
+<test name="testTwitter">
     <classes>
         <class name="com.bit.parallel.test.Test02" ></class>
     </classes>

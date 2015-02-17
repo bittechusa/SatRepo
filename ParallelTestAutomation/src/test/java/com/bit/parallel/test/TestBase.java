@@ -15,6 +15,7 @@ import org.testng.annotations.BeforeMethod;
 public class TestBase 
 {
  
+	private WebDriver driver;
     protected ThreadLocal<RemoteWebDriver> threadDriver = null;
  
    /* @BeforeMethod
